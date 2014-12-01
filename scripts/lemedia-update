@@ -92,8 +92,8 @@ upgradeLeMedia()
 	
 	echo -e "\033[32mDownload the LeMedia upgarde packet, Please wait ...\033[0m"
 	echo -e "-----------------------------------------------------------"
-	wget -c --no-check-certificate -t 3 https://raw.githubusercontent.com/hcdth011/lemedia-update/master/lemedia-latest.tgz -O $TEMP_LEMEDIA_DIR/lemedia-latest.tgz
-	wget -c --no-check-certificate -t 3 https://raw.githubusercontent.com/hcdth011/lemedia-update/master/lemedia-latest.tgz.asc -O $TEMP_LEMEDIA_DIR/lemedia-latest.tgz.asc
+	wget -c --no-check-certificate -t 3 https://raw.githubusercontent.com/hcdth011/lemedia-update/master/firmware/lemedia-latest.tgz -O $TEMP_LEMEDIA_DIR/lemedia-latest.tgz
+	wget -c --no-check-certificate -t 3 https://raw.githubusercontent.com/hcdth011/lemedia-update/master/firmware/lemedia-latest.tgz.asc -O $TEMP_LEMEDIA_DIR/lemedia-latest.tgz.asc
 	echo -e "-----------------------------------------------------------"
 		
 	echo -e "\033[32mVerifying signature... \033[0m\n"
